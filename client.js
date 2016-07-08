@@ -27,7 +27,8 @@ $scope.checkedItem = function(item){
 }
 
 
-
+//I wonder if I could use every( )to check and see if an item has been checked//
+//The code below doesn't really work properly.  But it shows a start
 $scope.bigRemoveClick = function(toRemoveArray){
   for (var i=0; i< $scope.toRemoveArray.length;  i++){
   itemList.splice($scope.toRemoveArray[i], 1);
